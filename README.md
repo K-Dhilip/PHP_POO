@@ -1,1 +1,1 @@
-# PHP_POO
+# PHP-POO
