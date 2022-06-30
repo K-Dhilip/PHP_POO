@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-    <title>Introduction</title>
+    <title>Introduction - cours programmation orientée objet</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,52 +13,40 @@
 </head>
 
 <body>
+
     <div class="p-5 bg-light">
         <div class="container">
-            <h1 class="display-3">PDO : La programmation orientee object</h1>
-            <p class="lead">Introduction</p>
-
+            <h1 class="display-3">POO : la programmation orientée objet</h1>
+            <p class="lead text-center mt-3">Introduction</p>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="text-center">
-                    Que sont les objects
-                </h2>
-                <p>les objects ressemblent aux vraiables que lon contaob (string, integer , float ,array etc) mais ces derines ses dropts ectx ces tableau devient vite vite tres compeletes et si don notre code, les person qui ne pas epas facilement lorque occupe des dates elles sont effet considers comme des ajouts ,,devient tres complication. Il faudra convepir il faudrea dates se beaucoup plus sample </p>
-                <p class="alret alert-secondary"></p>
+                <h2 class="text-center">Que sont les objets</h2>
+                <p>Les objets ressemblent fortement aux variables que l'on connaît (string, integer, boolean, float, array, etc...) mais ces dernières sont limitées et on peut se retrouver bloqué. Par exemple lorsque l'on crée un réseau social et que l'on veut sauvegarder un utilisateur. À ce moment là on voudra définir ses limites, ses droits, etc... Ces tableaux deviennent vite très complexes et si on doit transmettre notre code, les personnes qui ne l'ont pas écrit s'y perdent facilement. Un autre exemple où le procédural est compliqué à appliquer est lorsque l'on s'occupe des dates. Elles sont en effet considérées comme des chaînes de caractères. Et faire des ajouts de jours ou de mois dessus devient très compliqué. Il faudra convertir les données et passer d'un format à l'autre. En orienté objet les manipulations de dates seront beaucoup plus simples.</p>
+                <p class="alert alert-secondary">
+                    <strong>MaDate</strong> est une classe <br> <strong>$date1 = new MaDate:</strong> sont des objets ou bien des instanciations de cette classe.
+                </p>
 
-
-
-            </div>
-
+            </div> <!-- Fin de la col-12 -->
 
             <div class="col-12">
-                <h2 class="text-center">
-                    les advantagfe de la poo
-                </h2>
-                <p>
-                    le principal avantage de la poo est de facilatiopt la reutilizatiopn dun module ainisi on porra regrzade fonction dune ,cqlses exitancsr dans une nouellz classe notion dheritage
-                </p>
-                <p>une autr chose facitiee pare loriente est la lecture du code enn effect on compadrance plus faclilent une instruction <code>->ajout</code> quèun if else des multiples condition la course . la force de cette facon de programm calque sur la realite physique.une classe sera par expmple renault .les objects ou instraction de cette seront $voiture, $voiture2. etc . object est donc la voiture cet object aura des clearstatcache . En conslusion les advantage de cette facon de programmer sont les suivants </p>
+                <h2 class="text-center">Les propriétés</h2>
+                <p>Sur nos différents objets (ou instanciations) nous allons avoir des propriétés, des variables. Un objet pourra contenir plusieurs propriétés mais aussi plusieurs méthodes: sur une classe MaDate on pourra imaginer des propriétés pour afficher le nombre de jours mais aussi des méthodes pour ajouter des jours ou des mois.</p>
+            </div><!-- Fin de la col-12 -->
 
-            </div>
             <div class="col-12">
-                <h2 class="text-center">
-les methodes                </h2>
-                <p>
-                    comme nous avons parle au dessus, les class 
-                </p>
-                <p>une autr chose facitiee pare loriente est la lecture du code enn effect on compadrance plus faclilent une instruction <code>nomMethode();</code> </p>
+                <h2 class="text-center">Les méthodes</h2>
+                <p>Comme nous en avons parlé au-dessus, les classes peuvent aussi contenir des méthodes. Ces dernières sont en effet des fonctions, appelées méthodes dans le cadre de la POO. Elles ont donc la même nomenclature qu'en procédural : <code>nomMethode();</code></p>
+            </div><!-- Fin de la col-12 -->
 
-            </div>
-
-
-            <!-- fin de col -->
         </div>
     </div>
+
+
+
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 

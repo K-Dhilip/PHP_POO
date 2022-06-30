@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-    <title>Introduction</title>
+    <title>Introduction - cours programmation orientée objet</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,63 +13,50 @@
 </head>
 
 <body>
+
     <div class="p-5 bg-light">
         <div class="container">
-            <h1 class="display-3">PDO : La programmation orientee object</h1>
-            <p class="lead">Introduction</p>
-
+            <h1 class="display-3">POO : la programmation orientée objet</h1>
+            <p class="lead text-center mt-3">Introduction</p>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="text-center">
-                    Historique
-                </h2>
-                <p>la notion dobject a ete introduite dans les langes de programation en 1992 par le locale_get_display_language simulus cette facon de programmer a eveoluee avanr d etre populaire en 1983 zvec la sortie du langue oritene dont utillisation ressembe a celle du langage </p>
-                <p>
-                    cette nouvelle facon de programmer repond a plusier besoins
-                </p>
+                <h2 class="text-center">Historique</h2>
+                <p>La notion d'objet a été introduite dans les langages de programmation en 1962 par le langage simula. Cette façon de programmer a évoluée avant d'être popularisée en 1983 avec la sortie du langage C++, un langage orienté objet dont l'utilisation ressemble à celle du langage C.</p>
+                <p>Cette nouvelle façon de programmer répond à plusieurs besoins.</p>
                 <ul>
-                    <li>Elle facille les changements importants dans le programme </li>
-                    <li>En cas de changements les langage elle facilite la mise a niveau</li>
+                    <li>Elle facilite les changements importants dans le programme.</li>
+                    <li>En cas de changements dans les langages elle facilite la mise à niveau</li>
                 </ul>
-                <p>
-                    la poo va premettre de faire face aux changements majeurs qui auurant pus demamder de repondre un programme de a to z . Mais elle va demander egalment
-                </p>
+                <p>La POO va permettre de faire face aux changements majeurs qui auraient pu demander de reprendre un programme de A à Z. Mais elle va demander également une nouvele façon de programmer et de réfléchir à l'organisation du code. 3 stratégies sont alors à mettre en place.</p>
                 <ul>
-                    <li>
-                        modilier differnt
-                    </li>
-                    <li>modulariser</li>
-                    <li>encapuler</li>
+                    <li>Modéliser différemment</li>
+                    <li>Modulariser</li>
+                    <li>Encapsuler</li>
                 </ul>
-            </div>
-
+            </div> <!-- Fin de la col-12 -->
 
             <div class="col-12">
-                <h2 class="text-center">
-                    les advantagfe de la poo
-                </h2>
-                <p>
-                    le principal avantage de la poo est de facilatiopt la reutilizatiopn dun module ainisi on porra regrzade fonction dune ,cqlses exitancsr dans une nouellz classe notion dheritage
-                </p>
-                <p>une autr chose facitiee pare loriente est la lecture du code enn effect on compadrance plus faclilent une instruction <code>->ajout</code> quèun if else des multiples condition la course . la force de cette facon de programm calque sur la realite physique.une classe sera par expmple renault .les objects ou instraction de cette seront $voiture, $voiture2. etc . object est donc la voiture cet object aura des clearstatcache . En conslusion les advantage de cette facon de programmer sont les suivants </p>
+                <h2 class="text-center">Les avantages de la POO</h2>
+                <p>Le principal avantage de la POO est de faciliter la réutilisation d'un module. Ainsi on pourra reprendre les méthodes (fonctions) d'une classe existente dans une nouvelle classe grâce à la notion d'héritage.</p>
+                <p>Une autre chose facilitée par l'orienté objet est la lecture du code. En effet on comprendra plus facilement une instruction <code>->ajout</code>, qu'un if else avec des multiples conditions dans une boucle. La force de cette façon de programmer est qu'elle se calque sur la réalité physique. Une classe sera par exemple Renault. Les objets ou instanciations de cette classe seront $voiture1, $voiture2, etc... L'objet est donc la voiture. Cet objet aura les caractéristiques représentées par des variables, appelées propriétés, et des comportements représentés par des fonctions appelées méthodes. En conclusion les avantages de cette façon de programmer sont les suivants:</p>
+                <ul>
+                    <li>La facilitation du travail collaboratif</li>
+                    <li>La simplification de la mainenance</li>
+                    <li>L'assouplissement du code</li>
+                </ul>
 
-            </div>
-            <ul>
-                <li>la facilition du travail collabration</li>
-                <li>la simplification de la maintaince</li>
-                <li>assouplissent de code</li>
-            </ul>
-            <p>
-                cette approche est tout de meme moins intuitive que lapporche procedurale . la poo obloge en effet a reflechir et modiliser avant de programmer
-            </p>
+                <p>Cette approche est tout de même moins intuitive que l'approche procédurale. La POO oblige en effet à réfléchir et modéliser avant de programmer.</p>
+            </div><!-- Fin de la col-12 -->
 
-            <!-- fin de col -->
         </div>
     </div>
+
+
+
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 
