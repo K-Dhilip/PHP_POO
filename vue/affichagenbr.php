@@ -10,8 +10,7 @@
     $nbr2 = Number::withZero(5);
     echo "<p>" . $nbr2 . "</p>";
 
-    $nbr3 = new Number;
-    $nbr3->sansZero(5);
+    $nbr3 = Number::sansZero(150);
     echo "<p>" . $nbr3 . "</p>";
 
     $nbr4 = Number::avecEuro(150);
