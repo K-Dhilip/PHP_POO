@@ -32,7 +32,7 @@
                 <p>Les méthodes et propriétés statiques sont pratiques dans certains cas uniquement. Premièrement lorsque l'on veut qu'une méthode soit appliquée à notre classe, comme lors du formatage d'un nombre.
                     <br>
                     Exemple : lorsque l'on rajoute un zéro initial quand le chiffre est inférieur à 10. On ne voudra pas dire à chaque fois <code>$machin = new Machin;</code> puis <code>$machin->format()</code> car ce code est trop lourd et il existe plus simple. On cherche en fait à ce que dés que l'instanciation est faite, le format soit automatiquement appelé.</p>
-                <p>La façon d'instancier une classe qui possède une méthode statique sera différente: <code>class::methode()</code> On utilisera alors pour appeler la méthode deux fois <em>deux points</em> et non plus la flèche. 
+                <p>La façon d'instancier une classe qui possède une méthode statique sera différente: <code>class::methode()</code> On utilisera alors pour appeler la méthode deux fois <em>deux points</em> ou <em>::</em> et non plus la flèche. 
                 </p>
                 
             </div> <!-- Fin de la col-12 -->
